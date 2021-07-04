@@ -1,6 +1,6 @@
 {
   "name": "@txo/nested-filter-plugin-prisma",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Technology Studio - Nested filter plugin prisma",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -23,8 +23,7 @@
     "build:watch:lib": "yarn tsc --watch",
     "prepare": "yarn build"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "@txo-peer-dep/nested-filter-prisma": "^2.0.0"
   }
