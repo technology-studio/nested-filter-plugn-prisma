@@ -26,5 +26,6 @@
   "dependencies": {
   },
   "peerDependencies": {
+    "@txo-peer-dep/nested-filter-prisma": "^2.0.0"
   }
 }
