@@ -4,4 +4,4 @@
  * @Copyright: Technology Studio
 **/
 
-export * from './ExcludeDeletedNestedFilterExtension'
+export * from './ExcludeDeletedNestedFilterPlugin'
