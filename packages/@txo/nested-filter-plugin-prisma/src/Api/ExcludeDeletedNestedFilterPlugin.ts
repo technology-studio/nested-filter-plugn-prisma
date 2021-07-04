@@ -77,7 +77,7 @@ export class ExcludeDeletedNestedFilterPlugin implements Plugin {
   processWhere <SOURCE, ARGS, CONTEXT, WHERE > (
     where: WHERE,
     resolverArguments: ResolverArguments<SOURCE, ARGS, CONTEXT>,
-    pluginOptions: PluginOptions | undefined,
+    pluginOptions?: PluginOptions,
   ): WHERE {
     if (pluginOptions?.excludeDeleted ?? this._defaultOptions?.excludeDeleted) {
       const deletedDateTimeValue = (
