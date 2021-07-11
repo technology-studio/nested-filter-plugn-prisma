@@ -74,9 +74,9 @@ export class ExcludeDeletedNestedFilterPlugin implements Plugin {
     return value
   }
 
-  processWhere <SOURCE, ARGS, CONTEXT, WHERE > (
+  processWhere <WHERE > (
     where: WHERE,
-    resolverArguments: ResolverArguments<SOURCE, ARGS, CONTEXT>,
+    resolverArguments: ResolverArguments,
     pluginOptions?: PluginOptions,
   ): WHERE {
     if (pluginOptions?.excludeDeleted ?? this._defaultOptions?.excludeDeleted) {

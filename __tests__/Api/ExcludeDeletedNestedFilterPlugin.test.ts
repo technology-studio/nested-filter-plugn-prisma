@@ -5,7 +5,7 @@
 **/
 
 import { ResolverArguments } from '@txo-peer-dep/nested-filter-prisma'
-import { ExcludeDeletedNestedFilterPlugin } from '@txo/nested-filter-plugin-prisma/src'
+import { ExcludeDeletedNestedFilterPlugin } from '@txo/nested-filter-plugin-prisma'
 
 describe('ExcludeDeletedNenstedFilterPlugin', () => {
   const plugin = new ExcludeDeletedNestedFilterPlugin({
@@ -14,7 +14,7 @@ describe('ExcludeDeletedNenstedFilterPlugin', () => {
   })
 
   // eslint-disable-next-line @typescript-eslint/consistent-type-assertions
-  const resolveArguments = {} as ResolverArguments<unknown, unknown, unknown>
+  const resolveArguments = {} as ResolverArguments
 
   test('processWhere - single entity', () => {
     expect(plugin.processWhere({
