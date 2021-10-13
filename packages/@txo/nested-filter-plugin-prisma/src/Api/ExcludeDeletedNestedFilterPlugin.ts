@@ -19,7 +19,7 @@ declare module '@txo-peer-dep/nested-filter-prisma' {
   }
 }
 
-const WHERE_NON_ENTITY_KEY_LIST = [
+export const WHERE_NON_ENTITY_KEY_LIST = [
   'equals',
   'in',
   'notIn',
@@ -30,6 +30,9 @@ const WHERE_NON_ENTITY_KEY_LIST = [
   'not',
   'every',
   'some',
+  'hasSome',
+  'hasEvery',
+  'isEmpty',
   'none',
 ]
 
