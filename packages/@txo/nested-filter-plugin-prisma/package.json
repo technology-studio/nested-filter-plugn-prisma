@@ -1,6 +1,6 @@
 {
   "name": "@txo/nested-filter-plugin-prisma",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Technology Studio - Nested filter plugin prisma",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
